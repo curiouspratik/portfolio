@@ -2,70 +2,43 @@
 
 .App {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Hogwarts Wizard', sans-serif;
+  background-color: #f7f7f7;
 }
 
-.Calculator-title {
-  font-size: 3rem;
-  color: #333;
-  text-shadow: 2px 2px 5px #ccc;
-}
-
-.Calculator-text {
-  font-size: 1.5rem;
-  color: #333;
-}
-
-.Calculator-section {
-  padding: 2rem;
-  background-color: #eee;
-}
-
-.Calculator-section h2 {
-  font-size: 2rem;
-  color: #333;
-  margin-top: 0;
-}
-
-.Calculator-footer {
-  padding: 1rem;
-  background-color: #ccc;
-  text-align: center;
-}
-
-/* Matrix.css */
-
-.Matrix-header {
-  background-color: black;
+.HarryPotter-header {
+  background-color: #9b3e15;
   padding: 2rem;
   text-align: center;
 }
 
-.Matrix-title {
+.HarryPotter-title {
   font-size: 3rem;
-  color: green;
+  color: #f7f7f7;
   margin: 0;
 }
 
-.Matrix-text {
+.HarryPotter-text {
   font-size: 1.5rem;
-  color: white;
+  color: #333;
 }
 
-
-.Matrix-section {
+.HarryPotter-section {
   padding: 2rem;
-  background-color: black;
+  background-color: #f7f7f7;
 }
 
-.Matrix-section h2 {
+.HarryPotter-section h2 {
   font-size: 2rem;
-  color: green;
-  text-shadow: 1px 1px 3px black;
+  color: #9b3e15;
   margin-top: 0;
 }
 
-.Matrix-footer {
+.HarryPotter-footer {
   padding: 1rem;
-  background-color: black;
+  background-color: #9b3e15;
+  text-align: center;
 }
+
+/* Import Hogwarts Wizard font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hogwarts+Wizard&display=swap');
