@@ -1,44 +1,168 @@
-/* App.css */
-
-.App {
-  text-align: center;
-  font-family: 'Hogwarts Wizard', sans-serif;
-  background-color: #f7f7f7;
+body {
+  background: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
 }
 
-.HarryPotter-header {
-  background-color: #9b3e15;
-  padding: 2rem;
+.bg-gray-100 {
+  background: black;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: black;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+/* About Section Styles */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+}
+
+.about h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 24px;
   text-align: center;
 }
 
-.HarryPotter-title {
-  font-size: 3rem;
-  color: #f7f7f7;
+/* Skills Section Styles */
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+}
+
+.skills h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills li {
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+/* Projects Section Styles */
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+}
+
+.projects h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.projects .project {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.projects .project h3 {
+  font-size: 32px;
   margin: 0;
 }
 
-.HarryPotter-text {
-  font-size: 1.5rem;
-  color: #333;
+.projects .project p {
+  font-size: 24px;
 }
 
-.HarryPotter-section {
-  padding: 2rem;
-  background-color: #f7f7f7;
+/* Contact Section Styles */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
 }
 
-.HarryPotter-section h2 {
-  font-size: 2rem;
-  color: #9b3e15;
-  margin-top: 0;
+.contact h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
 }
 
-.HarryPotter-footer {
-  padding: 1rem;
-  background-color: #9b3e15;
-  text-align: center;
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Import Hogwarts Wizard font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Hogwarts+Wizard&display=swap');
+.contact label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact input {
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.contact textarea {
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contact button {
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: green;
+  color: black;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: black;
+  color: green;
+}
